@@ -2,6 +2,7 @@
   "name": "mypubsub-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://minttnim19.github.io/demo-awspubsub",
   "dependencies": {
     "@aws-amplify/api": "^5.0.15",
     "@testing-library/jest-dom": "^5.16.5",
