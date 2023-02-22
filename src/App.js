@@ -10,8 +10,8 @@ function App() {
   const [received, setReceived] = useState(null);
 
   //Define the channel name here
-  let channel = "938da082ca030dc89e00266b84282b0c";
-
+  let channel = "d8f51b09b51e2314eaf674fea0389ad6";
+  let channelName = "demo-awspubsub"
   //Publish data to subscribed clients
   async function handleSubmit(evt) {
     evt.preventDefault();
@@ -32,7 +32,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>Send/Push JSON to channel "{channel}"...</p>
+        <p>Send/Push JSON to channel "{channelName}"...</p>
         <form onSubmit={handleSubmit}>
           <textarea
             rows="5"
@@ -45,7 +45,7 @@ function App() {
           <br />
           <input type="submit" value="Submit" />
         </form>
-        <p>Subscribed/Listening to channel "{channel}"...</p>
+        <p>Subscribed/Listening to channel "{channelName}"...</p>
         <pre>{JSON.stringify(JSON.parse(received), null, 2)}</pre>
       </header>
     </div>
