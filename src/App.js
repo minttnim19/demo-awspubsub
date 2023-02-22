@@ -10,7 +10,7 @@ function App() {
   const [received, setReceived] = useState(null);
 
   //Define the channel name here
-  let channel = "robots";
+  let channel = "938da082ca030dc89e00266b84282b0c";
 
   //Publish data to subscribed clients
   async function handleSubmit(evt) {
