@@ -2,10 +2,10 @@
 
 export const config = {
   aws_appsync_graphqlEndpoint:
-    "https://zpjq4mi2oncfplhdphfe3hddqe.appsync-api.ap-southeast-1.amazonaws.com/graphql",
+    "https://x4xrjss7ezagrcgkmcqmz5r2ym.appsync-api.ap-southeast-1.amazonaws.com/graphql",
   aws_appsync_region: "ap-southeast-1",
   aws_appsync_authenticationType: "API_KEY",
-  aws_appsync_apiKey: "da2-je7yk22y2zf55ms2nmq6r7th34",
+  aws_appsync_apiKey: "da2-pmlwmd5xafcbxdb2z7lzcllnle",
 };
 
 export const subscribeDoc = /* GraphQL */ `
